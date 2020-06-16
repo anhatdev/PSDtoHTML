@@ -1,0 +1,62 @@
+/* Not use !important */
+
+/* Large Screen Breakpoint */
+@media screen and (max-width:992px){
+    .container{
+        padding-left: 2rem;
+        padding-right:2rem;
+    }
+    .header__menu-item:not(:last-child) {
+        margin-right: 1.5rem;
+    }
+    .hero__info{
+        width: 992px !important;
+        right: 0 !important;
+    }
+    .scroll-down{
+        left: 2rem !important;
+        bottom: 2rem !important;
+    }
+    .apartments__item .image {
+        height: 30rem !important;
+    }
+}
+
+/* Medium Screen Breakpoint */
+@media screen and (max-width:768px){
+   
+    .header__nav{
+        display: none;
+    }
+    .menu__collapse{
+        display: block;
+    }
+
+    .statistics{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+    }
+    .statistics__inner > div{
+        width: 100%;
+    }
+    .statistics__inner .right{
+        justify-content: center;
+        padding: 0 6rem;
+        margin-top: 4rem;
+    }
+
+    .apartments__item .info{
+        padding: 2rem;
+    }
+    .apartments__item .image{
+        height: 20rem !important;
+    }
+    .apartments__item .info h6{
+        margin-bottom: 2rem;
+    }
+    .apartments__item .info .meta{
+        display: block;
+        float: none;
+        margin-top: 1rem;
+    }
+}
